@@ -2,7 +2,7 @@
   <img src="https://github.com/bark-community/marketplace/blob/main/assets/marketplace-dark-logo.svg" alt="BARK | Marketplace" width="500">
 </p>
 
-<h2 align="center">Overview</h2>
+<h2 align="left">Overview</h2>
 
 Welcome to the BARK Marketplace, a proof of concept demonstration showcasing the initial implementation and functionality of our e-commerce platform. This section serves as an introduction to the marketplace, highlighting its architecture, supported payment gateways, and usage instructions.
 
