@@ -1,6 +1,6 @@
 <img src="https://github.com/bark-community/marketplace/blob/main/assets/header.png" alt="BARK | Marketplace" width="1000">
 
-# BARK | Marketplace (Proof of Concept)
+# BARK Marketplace (Proof of Concept)
 
 Welcome to the BARK Marketplace, a proof of concept demonstration showcasing the initial implementation and functionality of our e-commerce platform. This section serves as an introduction to the marketplace, highlighting its architecture, supported payment gateways, and usage instructions.
 
@@ -23,13 +23,13 @@ Solana Pay integration enables users to make payments using Solana blockchain te
 
 3. **Transaction Handling**: Implement the logic to handle transactions on the Solana blockchain, including sending payment requests, verifying transactions, and updating payment status.
 
-4. **Handling Payment Tokens**: Once payment information is collected, use the BARK SDK to generate payment tokens, e.g., BARK (devnet) test, and process payments securely.
+4. **Handling Payment Tokens**: Once payment information is collected, use the BARK SDK to generate payment tokens eg, BARK (devnet) test and process payments securely.
 
 5. **Error Handling**: Ensure robust error handling to manage situations such as failed transactions or network issues.
 
 ### Stablecoin Support
 
-1. **USDC Integration**: Circle's USDC allows USD-backed token transactions and payments based on Solana blockchain.
+1. **USDC Integration**: Circle´s USDC allow USD backed token transactions and payments based on Solana blockchain.
 
 ### Stripe
 
@@ -40,6 +40,7 @@ Stripe integration provides users with flexibility and accessibility when it com
 2. **Setup**: Create a Stripe (Developer platform) account and obtain API keys necessary for integration.
 
 3. **Implementation**: Integrate BARK "Stripe" Checkout and BARK "Stripe" Elements (npm packages) into BARK checkout flow to securely collect payment information from users.
+
 
 ### User Experience
 
