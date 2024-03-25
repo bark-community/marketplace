@@ -2,7 +2,7 @@
   <img src="https://github.com/bark-community/marketplace/blob/main/assets/marketplace-dark-logo.svg" alt="BARK | Marketplace" width="500">
 </p>
 
----
+
 
 <h2 align="left">Overview</h2>
 
