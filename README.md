@@ -1,4 +1,4 @@
-<img src="https://github.com/bark-community/marketplace/blob/main/assets/header.png" alt="BARK | Marketplace" width="1000">
+<img src="https://github.com/bark-community/marketplace/blob/main/assets/marketplace-dark-logo.svg" alt="BARK | Marketplace" width="500">
 
 # BARK Marketplace (Proof of Concept)
 
