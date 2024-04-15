@@ -26,7 +26,7 @@ const ADMIN_CORS =
   process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001,https://admin.barkprotocol.net";
 
 // CORS to avoid issues when consuming Medusa from a client
-const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000,https://shop.barkprotocol.net";
+const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000,https://store.barkprotocol.net";
 
 const DATABASE_URL =
   process.env.DATABASE_URL || "postgres://localhost/medusa-starter-default";

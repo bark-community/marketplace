@@ -18,6 +18,7 @@ import ProductPrice from "../product-price"
 type ProductActionsProps = {
   product: PricedProduct
   region: Region
+  disabled?: boolean
 }
 
 export type PriceType = {
@@ -30,6 +31,7 @@ export type PriceType = {
 export default function ProductActions({
   product,
   region,
+  disabled,
 }: ProductActionsProps) {
   const [options, setOptions] = useState<Record<string, string>>({})
   const [isAdding, setIsAdding] = useState(false)
@@ -137,6 +139,8 @@ export default function ProductActions({
                       current={options[option.id]}
                       updateOption={updateOptions}
                       title={option.title}
+                      data-testid="product-options"
+                      disabled={!!disabled || isAdding}
                     />
                   </div>
                 )
@@ -150,10 +154,11 @@ export default function ProductActions({
 
         <Button
           onClick={handleAddToCart}
-          disabled={!inStock || !variant}
+          disabled={!inStock || !variant || !!disabled || isAdding}
           variant="primary"
           className="w-full h-10"
           isLoading={isAdding}
+          data-testid="add-product-button"
         >
           {!variant
             ? "Select variant"
@@ -171,6 +176,7 @@ export default function ProductActions({
           handleAddToCart={handleAddToCart}
           isAdding={isAdding}
           show={!inView}
+          optionsDisabled={!!disabled || isAdding}
         />
       </div>
     </>

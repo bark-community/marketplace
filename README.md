@@ -3,7 +3,6 @@
 </p>
 
 
-
 <h2 align="left">Overview</h2>
 
 Welcome to the BARK Marketplace, a proof of concept demonstration showcasing the initial implementation and functionality of our e-commerce platform. This section serves as an introduction to the marketplace, highlighting its architecture, supported payment gateways, and usage instructions.
@@ -102,6 +101,10 @@ yarn install
 ```
 
 3. Once dependencies are installed, you can start the backend and storefront servers to run the marketplace locally.
+
+## Recources
+
+![Medusajs]:(https://docs.medusajs.com/)
 
 ## Getting Started
 
